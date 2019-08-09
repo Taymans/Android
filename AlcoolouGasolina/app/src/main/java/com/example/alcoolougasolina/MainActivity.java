@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btCalcular = findViewById(R.id.btCalcular);
     }
 
+    //Função que dispara operação de Cálculo
     public void calcularPreco(View view){
 
         double precoAlcool, precoGasolina, resultado;
