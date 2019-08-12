@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         //Toast.makeText(getApplicationContext(), "Botão Pressionado",Toast.LENGTH_LONG).show();
 
-        final int DURATION = 10;
 
         ImageView imagem = new ImageView(getApplicationContext());
         imagem.setImageResource(android.R.drawable.star_big_off);
