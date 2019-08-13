@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         dialog.setMessage("É assim que se faz um Alert Dialog?");
         dialog.setCancelable(false);
 
-        dialog.setIcon(android.R.drawable.ic_delete);
+        dialog.setIcon(android.R.drawable.ic_delete); // Referencia um Icone do projeto java
 
         dialog.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        dialog.create();
-        dialog.show();
+        dialog.create(); // Cria a Janela de Diálog
+        dialog.show(); // Exibe a janela de Diálog
 
 
     }
